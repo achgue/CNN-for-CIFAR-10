@@ -11,4 +11,4 @@ def test_model():
 
     # Evaluate model
     loss, accuracy, precision, recall = model.evaluate(x_test, y_test)
-    print(f"Test Accuracy: {accuracy:.2f}, Precision: {precision:.2f}, Recall: {recall:.2f}")
+    print(f"\033[32mTest Accuracy: {accuracy:.2f}, Precision: {precision:.2f}, Recall: {recall:.2f}\033[0m")
